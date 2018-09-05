@@ -29,6 +29,29 @@ textarea {
     font-weight: bold;
 }
 
+.voffset-2{
+    margin-top: 2px;
+}
+
+.voffset-5 {
+    margin-top: 5px;
+}
+
+.voffset-10 {
+    margin-top: 10px;
+}
+
+.voffset-20 {
+    margin-top: 20px;
+}
+
+.voffset-40 {
+    margin-top: 40px;
+}
+
+.voffset-80 {
+    margin-top: 80px;
+}
 
 /* Bootstrap Overrides */
 
