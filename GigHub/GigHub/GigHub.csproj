@@ -241,12 +241,17 @@
     <Compile Include="Migrations\201809031816002_AddAttendanceTable.Designer.cs">
       <DependentUpon>201809031816002_AddAttendanceTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201809051522167_AddFollowingTable.cs" />
+    <Compile Include="Migrations\201809051522167_AddFollowingTable.Designer.cs">
+      <DependentUpon>201809051522167_AddFollowingTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\Attendance.cs" />
     <Compile Include="Models\ExternalLoginConfirmationViewModel.cs" />
     <Compile Include="Models\ExternalLoginListViewModel.cs" />
+    <Compile Include="Models\Following.cs" />
     <Compile Include="Models\ForgotPasswordViewModel.cs" />
     <Compile Include="Models\ForgotViewModel.cs" />
     <Compile Include="Models\Genre.cs" />
@@ -363,6 +368,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201809031816002_AddAttendanceTable.resx">
       <DependentUpon>201809031816002_AddAttendanceTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809051522167_AddFollowingTable.resx">
+      <DependentUpon>201809051522167_AddFollowingTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
