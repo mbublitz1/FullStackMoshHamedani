@@ -11,9 +11,9 @@ namespace GigHub.Controllers
     {
         private readonly ApplicationDbContext _context;
 
-        public GigsController()
+        public GigsController(ApplicationDbContext context)
         {
-            _context = new ApplicationDbContext();
+            _context = context;
         }
 
         [Authorize]
